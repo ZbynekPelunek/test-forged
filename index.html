@@ -2,9 +2,18 @@
 <html>
     <head>
         <title>Xforged(PH)</title>
+        <script src="./main.js"></script>
+        <link href="./style.css" rel="stylesheet">
     </head>
     <body>
-        Preparations
-        <input type="submit" value="Generate">
+        <div class="item">
+            <p id="itemName">Item Generator</p>
+            <p id="itemLevel">Item Level 100 - 150</p>
+            <p id="itemStats">Click "Generate" to create an item that has a chance to be upgraded. The higher the upgrade, the lesser the chance.</p>
+        </div>
+        <br>
+        <div class="generateButton">
+            <input type="submit" value="Generate" onclick="generateItem();">
+        </div>
     </body>
 </html>
